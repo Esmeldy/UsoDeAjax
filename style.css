@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238,174,202);
+    background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(255,255,255,0) 100%);
+}
+.wrapper>h1 {
+    font-size: 1.5em;
+    color: rgb(85, 80, 80);
+}
+
+.wrapper>hr{
+    width: 35%;
+    height: 1px;
+}
+.wrapper>button{
+    padding: 10px 15px;
+    border: none;
+    opacity: 0.6;
+    border-radius: 10px 10px 0 0;
+}
+
+.wrapper>p{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.wrapper>p>select {
+    padding: 5px 15px;
+}
+
+.wrapper>button:hover{
+    font-weight: 600;
+    opacity: 1;
+}
